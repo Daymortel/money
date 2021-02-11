@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Money GUI</title>
+</head>
+<body>
+    <header>
+        <h1>Money Giver GUI</h1>
+    </header>
+    <main>
+        <form class="calcul">
+            <div class="prix">
+                <p>Combien coûte le bien ?</p>
+                <input type="number" name="prix" id="prix">
+            </div>
+            <div class="money">
+                <p>Combien est-ce que tu payes ?</p>
+                <input type="number" name="money" id="money">
+            </div>
+            <div class="rendu">
+                <input type="submit" value="Combien le caissier me rend-il ?" onclick="rendu(this.form)">
+            </div>          
+        </form>
+    </main>
+</body>
+</html>

@@ -5,3 +5,5 @@ def main():
 	print(f'Le caissier me rend {int(m) - int(p):0.2f} euros.')
 	
 main()
+
+input("Appuyer sur une touche pour quitter...")
